@@ -27,7 +27,6 @@ namespace TrafficKing
             graphics.PreferredBackBufferHeight = 700;
         }
 
-
         protected override void Initialize()
         {
             // Eerst moet de verwijzing naar de game er zijn. 

@@ -7,7 +7,7 @@ using System.Text;
 
 namespace TrafficKing
 {
-    public class GameObject
+    public abstract class GameObject
     {
         public Texture2D Texture { get; set; }
         public Vector2 Position { get; set; }
@@ -17,8 +17,6 @@ namespace TrafficKing
         public float Scale { get; set; }
         public Vector2 Speed;
         public float Alpha { get; set; }
-
-
 
         public GameObject(Vector2 position)
         {
@@ -32,6 +30,16 @@ namespace TrafficKing
         public virtual void Update(GameTime gameTime)
         {
             Position += Speed;
+        }
+
+        public virtual Rectangle getRectangle()
+        {
+            Rectangle rectangle = new Rectangle(
+                (int)Position.X - (Texture.Width / 2),
+                (int)Position.Y - (Texture.Height / 2),
+                Texture.Width,
+                Texture.Height);
+            return rectangle;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

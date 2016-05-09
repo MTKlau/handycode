@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TrafficKing.Strategy;
 
 namespace TrafficKing
 {
@@ -14,6 +15,9 @@ namespace TrafficKing
         private const float BRAKE_SPEED         = 0.05f;
         private const float MAX_SPEED           = 6f;
 
+        private IList<PoliceBoat> registeredBoats;
+        private int dangerLevel;
+
         /// <summary> 
         /// Constructor          
         /// </summary>         
@@ -21,10 +25,11 @@ namespace TrafficKing
         public DrugsBoat(Vector2 position)
             : base(position)
         {
-            Position = new Vector2(200, 150);
             Texture = AssetsManager.Drugsboat;
             Origin = new Vector2(Texture.Width / 2, Texture.Height / 2);
+            registeredBoats = new List<PoliceBoat>();
         }
+
         public override void Update(GameTime gameTime)
         {
             HandleKeyboard();
@@ -81,6 +86,37 @@ namespace TrafficKing
                     Speed.X -= 0.01f;
                 if (Speed.Y >= 0)
                     Speed.Y -= 0.01f;
+            }
+        }
+
+        public void setDangerLevel(int i)
+        {
+            this.dangerLevel = i;
+        }
+
+        public void registerPolice(PoliceBoat p)
+        {
+            registeredBoats.Add(p);
+        }
+
+        public void unregisterPolice(PoliceBoat p)
+        {
+            p.setStatus(new Floating());
+            registeredBoats.Remove(p);
+        }
+
+        public void notifyPolice()
+        {
+            foreach (PoliceBoat p in registeredBoats)
+            {
+                if (dangerLevel < 3)
+                {
+                    p.setStatus(new Patrolling());
+                }
+                else if (dangerLevel >= 3)
+                {
+                    p.setStatus(new Aggressive());
+                }
             }
         }
     }

@@ -5,7 +5,7 @@ Je code maakt gebruik van inheritance en interfaces. Beschrijf in het opleverdoc
 
 Abstracte class
 Er is gebruik gemaakt van een abstracte class. Beschrijf in het opleverdocument waar en waarom je dit toegepast hebt.
-
+Status.cs is een abstracte class. Deze bevat virtual methods die hetzelfde zijn voor Floating, maar Patrolling en Aggressive overschrijven een of meerdere functies ervan.
 
 
 In de abstracte class is gebruikt gemaakt van een abstracte functie. Beschrijf in het opleverdocument waar en waarom je dit toegepast hebt.
@@ -24,7 +24,7 @@ Toegepast op een plek zodat het patroon een toegevoegde waarde heeft voor de opl
 
 Je hebt een politiestation toegevoegd (mag alleen code zijn) die reageert op berichten. Het politiestation kan nieuwe bootjes aanmaken die gaan patrouilleren
 Is dit gelukt (Ja / Nee):
-
+Ja
 
 
 Je hebt een eigen nieuwe functionaliteit of stuk gedrag bedacht en toegevoegd aan de game. Dit mag nog niet voorkomen in de code of in de opdrachttekst. 

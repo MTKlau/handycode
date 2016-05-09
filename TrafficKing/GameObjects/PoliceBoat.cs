@@ -4,25 +4,51 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TrafficKing.Strategy;
 
 namespace TrafficKing
 {
     public class PoliceBoat : GameObject
     {
         public Vector2 Direction;
+        private Status status;
+        private Boolean hitColleagueShip;
 
         public PoliceBoat(Vector2 position)
             : base(position)
         {
+            Position = position;
             Texture     = AssetsManager.Policeboat;
             Origin      = new Vector2(Texture.Width / 2, Texture.Height / 2);
             Rotation    = MathHelper.ToRadians(45);
-            Speed       = new Vector2(2, 2);
-
+            this.hitColleagueShip = false;
+            
             if (Game1.Instance.Random.NextDouble() < 0.5)
+            {
                 Direction = new Vector2(1, -1);
+            }
             else
+            {
                 Direction = new Vector2(-1, -1);
+            }
+
+        }
+
+        public void setHitColleagueDetection(Boolean b)
+        {
+            this.hitColleagueShip = b;
+        }
+
+        public Boolean getHitColleagueDetection()
+        {
+            return this.hitColleagueShip;
+        }
+
+        public void setStatus(Status s)
+        {
+            this.status = s;
+            this.Color = s.setColor();
+            this.Speed = s.setSpeed();
         }
 
         public override void Update(GameTime gameTime)

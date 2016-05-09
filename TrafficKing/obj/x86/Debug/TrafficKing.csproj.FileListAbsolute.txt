@@ -32,6 +32,37 @@ C:\Users\Bob\Dropbox\Monogame\Code\Les8\TrafficKing\bin\Windows\Debug\SharpDX.Ra
 C:\Users\Bob\Dropbox\Monogame\Code\Les8\TrafficKing\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Bob\Dropbox\Monogame\Code\Les8\TrafficKing\obj\x86\Debug\TrafficKing.exe
 C:\Users\Bob\Dropbox\Monogame\Code\Les8\TrafficKing\obj\x86\Debug\TrafficKing.pdb
-C:\Users\Kalok\Documents\Visual Studio 2015\Projects\TrafficKing\obj\x86\Debug\TrafficKing.exe
-C:\Users\Kalok\Documents\Visual Studio 2015\Projects\TrafficKing\obj\x86\Debug\TrafficKing.pdb
-C:\Users\Kalok\Documents\Visual Studio 2015\Projects\TrafficKing\obj\x86\Debug\TrafficKing.csprojResolveAssemblyReference.cache
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\obj\x86\Debug\TrafficKing.exe
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\obj\x86\Debug\TrafficKing.pdb
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\busted.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\cloud.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\dock.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\drugs.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\drugsboat.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\policeboat.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\shadow.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\star.png
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\Content\Verdana.xnb
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\TrafficKing.exe
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\TrafficKing.pdb
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Kalok\Documents\Visual Studio 2012\Projects\TrafficKing\obj\x86\Debug\TrafficKing.csprojResolveAssemblyReference.cache
